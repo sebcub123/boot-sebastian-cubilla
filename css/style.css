@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 /* HEADER */
+header a{
+    font-size: 18px !important;
+}
 
-.header{
-    display: flex;
-    justify-content: center;
+header a:hover{
+    color: #f8077f !important;
 }
 
 nav{
@@ -188,26 +196,6 @@ nav{
 }
 
 
-@media (max-width: 990px) {
-    .header {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .header img {
-        width: 150px;
-    }
-
-    .header li {
-        margin: 3px;
-        font-size: 16px;
-    }
-
-    .header input {
-        height: 22px;
-        margin-bottom: 10px;
-    }
-}
 
 @media (max-width: 650px) {
     .grid-container {
@@ -216,20 +204,6 @@ nav{
 }
 
 @media (max-width: 450px) {
-    .header ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .header li {
-        margin: 10px;
-        font-size: 12px;
-    }
-
-    .header input {
-        margin-bottom: 10px;
-    }
 
     .footer li {
         margin: 3px;
