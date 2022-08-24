@@ -6,6 +6,7 @@
 
 
 /* HEADER */
+
 header a{
     font-size: 18px !important;
 }
@@ -125,46 +126,22 @@ nav{
     text-align: center;
 }
 
-.contEdad label {
+.form-email{
     width: 300px;
     height: 30px;
     margin: 10px;
     text-align: center;
 }
 
-.contCalendario input {
-    width: 300px;
-    height: 30px;
+.text-area{
     margin: 10px;
-    text-align: center;
-}
-
-.contEmail input {
-    width: 300px;
-    height: 30px;
-    margin: 10px;
-    text-align: center;
-}
-
-.contTelefono input {
-    width: 300px;
-    height: 30px;
-    margin: 10px;
-    text-align: center;
-}
-
-.contComentario textarea {
-    width: 300px;
-    height: 100px;
-    text-align: center;
 }
 
 .contEnviar input {
-    width: 300px;
+    width: 150px;
     height: 30px;
     margin: 10px;
     text-align: center;
-    align-content: center;
 }
 
 /* TIENDA */
@@ -238,25 +215,7 @@ nav{
         margin: 20px;
     }
 
-    .contEdad label {
-        width: 150px;
-        height: 30px;
-        margin: 20px;
-    }
-
-    .contCalendario input {
-        width: 150px;
-        height: 30px;
-        margin: 20px;
-    }
-
     .contEmail input {
-        width: 150px;
-        height: 30px;
-        margin: 20px;
-    }
-
-    .contTelefono input {
         width: 150px;
         height: 30px;
         margin: 20px;
